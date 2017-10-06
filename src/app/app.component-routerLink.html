@@ -34,33 +34,3 @@ RouterLink :
          routerLink]="['/detail']"> Detail </a>
   </span>
 </nav>
-
-routerLinkActive :
-<nav class="nav">
-  <span class="nav__item">
-      <a href=""
-         routerLink="/"
-         routerLinkActive="nav__item_selected"> Home </a>
-  </span>
-
-  <span class="nav__item">
-      <a href=""
-         routerLink="/detail"
-         routerLinkActive="nav__item_selected"> Detail </a>
-  </span>
-</nav>
-
-<!--Équivalent à -->
-routerLinkActive :
-<nav class="nav">
-  <span class="nav__item">
-      <a href=""
-         [routerLink]="['/']"
-         routerLinkActive="nav__item_selected"> Home </a>
-  </span>
-  <span class="nav__item">
-      <a href=""
-         [routerLink]="['/detail']"
-         routerLinkActive="nav__item_selected"> Detail </a>
-  </span>
-</nav>
